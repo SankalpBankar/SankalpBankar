@@ -11,4 +11,6 @@
  ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white) ![Streamlit](https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=<SankalpBankar>)](https://github.com/ryo-ma/github-profile-trophy)
+# 🏆Trophies
+[![trophy](https://github-profile-trophy.vercel.app/?username=<SankalpBankar>&theme=onedark&no-frame=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+
