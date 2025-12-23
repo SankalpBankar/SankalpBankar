@@ -18,7 +18,7 @@
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sankalpbankar&theme=tokyonight)
 
 # 🏆 Github Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=sankalpbankar&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+![trophy](https://github-profile-trophy.vercel.app/?username=sankalpbankar&theme=onedark)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" />
