@@ -1,6 +1,6 @@
 # ✨About Me:
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&color=00F7FF&center=true&vCenter=true&width=600&lines=Generative+AI+Developer;)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=25&color=00F7FF&center=true&vCenter=true&width=600&lines=Generative+AI+Developer;Python+Developer)](https://git.io/typing-svg)
 
 🌱 I'm currently learning Generative AI<br><br> 🎓 Pursuing B.Tech in Computer Science and Engineering (2nd Year). <br><br> 🗂️All of my projects are available at https://github.com/SankalpBankar <br><br> 💬 Ask me about Generative AI and Python.<br><br> ✉ How to reach me sankalpbankar7@gmail.com
 
