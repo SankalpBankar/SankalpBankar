@@ -6,7 +6,7 @@
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/__.sankalp10.__/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankalp-bankar-b3390b324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sankalpbankar7@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/__.sankalp10.__/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sankalp-bankar-b3390b324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sankalpbankar7@gmail.com)
 
 
 # 💻 Tech Stack:
@@ -18,6 +18,8 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/Sankalp_Bankar/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sankalpbankar7) 
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SankalpBankar&layout=compact&theme=tokyonight)
 
 # 📈 Github Stats 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sankalpbankar&show_icons=true&theme=tokyonight)
