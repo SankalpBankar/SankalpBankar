@@ -26,7 +26,7 @@
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=sankalpbankar&show_icons=true&theme=tokyonight)
 
 # Github Streaks 🔥
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sankalpbankar&theme=tokyonight)
+[![GitHub Streak](https://streak-stats.demolab.com?user=sankalpbankar&theme=dark)](https://git.io/streak-stats)
 
 # 🏆 Github Trophies
 ![trophy](https://github-profile-trophy.vercel.app/?username=sankalpbankar&theme=onedark)
