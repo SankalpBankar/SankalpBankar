@@ -20,16 +20,16 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/Sankalp_Bankar/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/sankalpbankar7) 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sankalpbankar&layout=compact&theme=tokyonight)
+![Top Langs](./assets/top-langs.svg)
 
 # 📈 Github Stats 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sankalpbankar&show_icons=true&theme=tokyonight)
+![GitHub Stats](./assets/github-stats.svg)
 
 # Github Streaks 🔥
-[![GitHub Streak](https://streak-stats.demolab.com?user=sankalpbankar&theme=dark)](https://git.io/streak-stats)
+[![GitHub Streak](./assets/github-streak.svg)](https://git.io/streak-stats)
 
 # 🏆 Github Trophies
-![trophy](https://github-profile-trophy.vercel.app/?username=sankalpbankar&theme=onedark)
+![trophy](./assets/github-trophies.svg)
 
 ## 💡 Developer Quote
 > **Code. Learn. Build. Repeat.**
