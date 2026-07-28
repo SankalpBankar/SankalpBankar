@@ -1,0 +1,53 @@
+name: Auto-Update Profile Stats
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Create Assets Directory
+        run: mkdir -p assets
+
+      - name: Fetch General Stats
+        run: |
+          curl -s "https://my-github-stats-mu.vercel.app/api?username=SankalpBankar&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=ffffff&icon_color=00BFFF&border_radius=8&count_private=true&include_all_commits=true" -o temp_stats.svg
+          if grep -q "<svg" temp_stats.svg; then mv temp_stats.svg assets/github-stats.svg; fi
+
+      - name: Fetch Top Languages
+        run: |
+          curl -s "https://my-github-stats-mu.vercel.app/api/top-langs/?username=SankalpBankar&layout=compact&hide_border=true&bg_color=0D1117&title_color=00BFFF&text_color=ffffff&icon_color=00BFFF&border_radius=8&count_private=true" -o temp_langs.svg
+          if grep -q "<svg" temp_langs.svg; then mv temp_langs.svg assets/top-langs.svg; fi
+
+      - name: Fetch Streak Stats
+        run: |
+          curl -s "https://streak-stats.demolab.com?user=SankalpBankar&theme=dark" -o temp_streak.svg
+          if grep -q "<svg" temp_streak.svg; then mv temp_streak.svg assets/github-streak.svg; fi
+
+      - name: Fetch Trophies
+        run: |
+          curl -s "https://github-profile-trophy.vercel.app/?username=SankalpBankar&theme=onedark" -o temp_trophy.svg
+          if grep -q "<svg" temp_trophy.svg; then mv temp_trophy.svg assets/github-trophies.svg; fi
+
+      - name: Sanitize SVGs (Remove leading whitespace)
+        run: |
+          for f in assets/github-stats.svg assets/top-langs.svg assets/github-streak.svg assets/github-trophies.svg; do
+            [ -f "$f" ] && perl -0777 -pi -e 's/^\s+//' "$f"
+          done
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update profile stats SVGs [skip ci]"
+          git push
