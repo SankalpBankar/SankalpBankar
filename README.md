@@ -28,9 +28,6 @@
 # Github Streaks 🔥
 [![GitHub Streak](./assets/github-streak.svg)](https://git.io/streak-stats)
 
-# 🏆 Github Trophies
-![trophy](./assets/github-trophies.svg)
-
 ## 💡 Developer Quote
 > **Code. Learn. Build. Repeat.**
 
