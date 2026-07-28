@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Create Assets Directory
         run: mkdir -p assets
@@ -41,7 +41,9 @@ jobs:
       - name: Sanitize SVGs (Remove leading whitespace)
         run: |
           for f in assets/github-stats.svg assets/top-langs.svg assets/github-streak.svg assets/github-trophies.svg; do
-            [ -f "$f" ] && perl -0777 -pi -e 's/^\s+//' "$f"
+            if [ -f "$f" ]; then
+              perl -0777 -pi -e 's/^\s+//' "$f"
+            fi
           done
 
       - name: Commit and Push Changes
