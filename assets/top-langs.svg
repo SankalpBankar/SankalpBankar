@@ -129,7 +129,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="188.5"
+          width="188.92"
           height="8"
           fill="#DA5B0B"
         />
@@ -137,9 +137,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="188.5"
+          x="188.92"
           y="0"
-          width="57.32"
+          width="56.93"
           height="8"
           fill="#e34c26"
         />
@@ -147,9 +147,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.82"
+          x="245.85"
           y="0"
-          width="12.71"
+          width="12.69"
           height="8"
           fill="#f1e05a"
         />
@@ -157,9 +157,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.53"
+          x="248.54"
           y="0"
-          width="10.59"
+          width="10.58"
           height="8"
           fill="#3572A5"
         />
@@ -179,7 +179,7 @@
           data-testid="lang-progress"
           x="249.6"
           y="0"
-          width="10.41"
+          width="10.4"
           height="8"
           fill="#b07219"
         />
@@ -190,14 +190,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 75.40%
+        Jupyter Notebook 75.57%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 22.93%
+        HTML 22.77%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -211,7 +211,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 0.24%
+        Python 0.23%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
