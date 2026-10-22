@@ -129,7 +129,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="190.08"
+          width="189.98"
           height="8"
           fill="#DA5B0B"
         />
@@ -137,9 +137,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="190.08"
+          x="189.98"
           y="0"
-          width="54.84"
+          width="54.83"
           height="8"
           fill="#e34c26"
         />
@@ -147,9 +147,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="244.92000000000002"
+          x="244.81"
           y="0"
-          width="12.93"
+          width="12.98"
           height="8"
           fill="#f1e05a"
         />
@@ -157,9 +157,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="247.85000000000002"
+          x="247.79"
           y="0"
-          width="11.3"
+          width="11.370000000000001"
           height="8"
           fill="#3572A5"
         />
@@ -167,7 +167,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.15000000000003"
+          x="249.16"
           y="0"
           width="10.46"
           height="8"
@@ -177,7 +177,7 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.61000000000004"
+          x="249.62"
           y="0"
           width="10.39"
           height="8"
@@ -190,7 +190,7 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 76.03%
+        Jupyter Notebook 75.99%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
@@ -204,14 +204,14 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 1.17%
+        JavaScript 1.19%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 0.52%
+        Python 0.55%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
